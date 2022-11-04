@@ -1,0 +1,6 @@
+# build tools
+Taskfile.yml
+/.task/
+
+# application config
+.env
