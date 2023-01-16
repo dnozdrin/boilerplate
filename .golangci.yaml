@@ -871,8 +871,8 @@ linters:
     - promlinter
     - reassign
     - revive
-    - rowserrcheck
-    - sqlclosecheck
+#    - rowserrcheck # won't work as expected, see https://github.com/golangci/golangci-lint/issues/2649
+#    - sqlclosecheck # won't work as expected, see https://github.com/golangci/golangci-lint/issues/2649
     - staticcheck
     - stylecheck
     - tagliatelle
@@ -887,7 +887,7 @@ linters:
     - unused
     - usestdlibvars
     - varnamelen
-    #    - wastedassign # don't work as expected, see https://github.com/golangci/golangci-lint/issues/2649
+    #    - wastedassign # won't work as expected, see https://github.com/golangci/golangci-lint/issues/2649
     - whitespace
     - wrapcheck
     - wsl
